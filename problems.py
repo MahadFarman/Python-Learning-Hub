@@ -1,45 +1,27 @@
-# # 1. Write a program to print Twinkle twinkle 
-# little star poem in python.
-print(''' Twinkle, twinkle, little star,
-How I wonder what you are!
-Up above the world so high,
-Like a diamond in the sky.
+# 1. Write a python program to add two numbers.
+n1=int(input('Enter the number 1 :'))
+n2=int(input('Enter the number 2 :'))
+print(n1+n2)
 
-When the blazing sun is gone,
-When he nothing shines upon,
-Then you show your little light,
-Twinkle, twinkle, all the night.
+# 2. Write a python program to find remainder when a number is divided by z.
+a=int(input('Enter the number :'))
+b=int(input('Enter the number :'))
+print('Remainder when a divied by b :',a%b)
 
-Then the traveler in the dark
-Thanks you for your tiny spark,
-How could he see where to go,
-If you did not twinkle so?
+# 3. Check the type of variable assigned using input() function.
+a=input('enter the variable :')
+print(type(a))
 
-In the dark blue sky you keep,
-Often through my curtains peep
-For you never shut your eye,
-Till the sun is in the sky.
+# 4. Use comparison operator to find out whether ‘aʼ input variable is greater than ‘bʼ or not.
+a=int(input('Enter the number :'))
+b=int(input('Enter the number :'))
+print('a is greter than b ',a>b)
 
-As your bright and tiny spark
-Lights the traveler in the dark,
-Though I know not what you are,
-Twinkle, twinkle, little star.''')
+# 5. Write a python program to find an average of two numbers entered by the user.
+a=int(input('Enter the number :'))
+b=int(input('Enter the number :'))
+print('The average of two these two number is:', (a+b)/2)
 
-# 3. Install an external module and use it to 
-import pyttsx3
-engine = pyttsx3.init()
-engine.say("mahad the genius ")
-engine.runAndWait()
-
-# Write a python program to print the contents of a directory
-#  using the os module. 
-import os
-path = r'C:\Users\fisba\Desktop\PYTHON COURSE'
-contents = os.listdir(path)
-print("Contents of the directory:")
-for item in contents:
-    print(item)
-
-
-# 5. Label the program written in problem 4 with comments.
-# mahad the genius
+# 6. Write a python program to calculate the square of a number entered by the user
+a=int(input('Enter the number :'))
+print("The square of this number is :", a*a)
